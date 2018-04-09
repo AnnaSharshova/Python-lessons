@@ -1,16 +1,16 @@
 week_day = 3
 if week_day == 1:
-	print ("monday")
+    print ("monday")
 elif week_day == 2:
-	print ("tuesday")
+    print ("tuesday")
 elif week_day == 3:
-	print ("wednesday")
+    print ("wednesday")
 elif week_day == 4:
-	print ("thursday")
+    print ("thursday")
 elif week_day == 5:
-	print ("friday")
+    print ("friday")
 elif week_day == 6:
-	print ("saturday")
+    print ("saturday")
 else: 
     print ("sunday")
 
