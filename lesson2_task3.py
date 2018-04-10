@@ -5,12 +5,21 @@
 # 4*. Создайте переменную с фамилией одного из участников и выведите его имя, 
 # используя для этого одновременно 2 переменные - словарь участников и только что объявленную переменную.
 
-_dict = {"Maksimenko": "Eakaterina", "Moskalevich": "Karina", "Ivankova": "Anastasia", "Volkova": "Svetlana", 
-"Svechnikov": "Victor", "Sokolova": "Eugenia", "Dmitrieva": "Anna", "Okhotnikov": "Vitaly", "Chepelova": "Anna"}
-print (_dict ["Volkova"])
+_dict = {
+    "Maksimenko": "Eakaterina", 
+    "Moskalevich": "Karina", 
+    "Ivankova": "Anastasia", 
+    "Volkova": "Svetlana", 
+    "Svechnikov": "Victor", 
+    "Sokolova": "Eugenia", 
+    "Dmitrieva": "Anna", 
+    "Okhotnikov": "Vitaly", 
+    "Chepelova": "Anna"
+}
+print(_dict["Volkova"])
 
-_dict.update ({"Volodin": "Aleksey"})
-print (_dict)
+_dict.update({"Volodin": "Aleksey"})
+print(_dict)
 
-LastName = "Chepelova"
-print (_dict[LastName])
+last_name = "Chepelova"
+print(_dict[last_name])
