@@ -24,8 +24,8 @@ else:
 
 time = 13
 if time < 12:
-	print("a.m.")
+	print("wednesday, a.m.")
 else:
-	print("p.m.")
+	print("wednesday, p.m.")
 
 # I didn't understand the task, but I tried.
