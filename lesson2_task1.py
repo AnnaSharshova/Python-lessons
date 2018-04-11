@@ -6,13 +6,18 @@
 # Для среды, в зависимости от второй переменной со временем, выведите текст "a.m." (< 12 часов дня) или "p.m." (>= 12 часов дня).
 # Напишите комментарий с пояснением о том, что делает текущая программа.
 
+time = 13
+	
 week_day = 3
 if week_day == 1:
     print("monday")
 elif week_day == 2:
     print("tuesday")
 elif week_day == 3:
-    print("wednesday")
+    if time < 12:
+        print("wednesday, a.m.")
+    else:
+        print("wednesday, p.m.")
 elif week_day == 4:
     print("thursday")
 elif week_day == 5:
@@ -22,10 +27,6 @@ elif week_day == 6:
 else: 
     print("sunday")
 
-time = 13
-if time < 12:
-	print("wednesday, a.m.")
-else:
-	print("wednesday, p.m.")
+
 
 # I didn't understand the task, but I tried.
