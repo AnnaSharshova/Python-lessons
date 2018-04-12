@@ -20,8 +20,6 @@ print(furniture_list)
 
 for furniture_item in furniture_list:
     if furniture_item == "table":
-        pass
         print("You can write on it")
     if furniture_item == "chair":
-        pass
         print("You can sit on it")
