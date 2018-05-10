@@ -11,7 +11,7 @@ furniture_list = ["chair", "table", "wardrobe", "sofa", "bed"]
 for furniture_item in furniture_list:
     print(furniture_item)
 
-no_sofa = [furniture_item for furniture_item in furniture_list if furniture_item!= "sofa"]
+no_sofa = [furniture_item for furniture_item in furniture_list if furniture_item != "sofa"]
 print(no_sofa)
 
 furniture_list.append("armchair")
